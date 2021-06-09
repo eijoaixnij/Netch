@@ -155,7 +155,7 @@ namespace Netch.Services
                     return new NFController();
                 case ModeType.ProxyRuleIPs:
                 case ModeType.BypassRuleIPs:
-                    return new TUNController();
+                    return new TapController();
                 case ModeType.Pcap2Socks:
                     return new PcapController();
                 default:
